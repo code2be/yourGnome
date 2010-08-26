@@ -1,10 +1,10 @@
 #!/bin/sh
-#-------------------------------------------#
-#           yourgnome version 2             #
-#    http://code.google.com/p/yourgnome     #
-#		Licence: GPL	            #
-#    http://www.gnu.org/licenses/gpl.html   #
-#-------------------------------------------#
+#-------------------------------------------------------------------------------#
+#				yourgnome version 2             								#
+#			http://code.google.com/p/yourgnome     								#
+#				Licence: GPL version 3											#
+#	GPL version 3 (http://www.gnu.org/licenses/quick-guide-gplv3.html)			#
+#-------------------------------------------------------------------------------#
 zenity --help > /dev/null &
 if [ "$?" = 0 ] ; then 
 if [ ! -d $HOME/yourgnomeTEMP ]; then
